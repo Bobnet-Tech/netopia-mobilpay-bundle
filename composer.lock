@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da067df568a0302405378895a08ccb83",
+    "content-hash": "805a2964d6a2232038f525a1af2e9c85",
     "packages": [
         {
             "name": "birkof/netopia-mobilpay",
-            "version": "v3.0.0",
+            "version": "v4.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/birkof/netopia-mobilpay.git",
-                "reference": "3c3b9554e96d00848cc24eef30f72e1a0b2d4854"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/birkof/netopia-mobilpay/zipball/3c3b9554e96d00848cc24eef30f72e1a0b2d4854",
-                "reference": "3c3b9554e96d00848cc24eef30f72e1a0b2d4854",
-                "shasum": ""
+                "url": "https://github.com/Bobnet-Tech/netopia-mobilpay",
+                "reference": "63f1500d977e27f35cee27c78b6acf9a277bb47d"
             },
             "require": {
                 "ext-dom": "*",
@@ -30,7 +24,6 @@
                     "Mobilpay\\Payment\\": "src/Mobilpay/Payment/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Daniel STANCU",
@@ -38,11 +31,7 @@
                 }
             ],
             "description": "Mirroring MobilePay library with composer PSR-4 autoloading capability.",
-            "support": {
-                "issues": "https://github.com/birkof/netopia-mobilpay/issues",
-                "source": "https://github.com/birkof/netopia-mobilpay/tree/v3.0.0"
-            },
-            "time": "2022-04-18T16:00:49+00:00"
+            "time": "2023-11-02T13:01:19+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1686,5 +1675,5 @@
         "php": "^7.4|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
