@@ -11,11 +11,17 @@
   },
   "require": {
     "php": "^7.4|^8.0",
-    "birkof/netopia-mobilpay": "^3.0",
+    "birkof/netopia-mobilpay": "^4.0",
     "symfony/monolog-bundle": "^3.7",
     "symfony/routing": "^4.4 || ^5.0 || ^6.0"
   },
   "config": {
     "sort-packages": true
-  }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Bobnet-Tech/netopia-mobilpay"
+    }
+  ]
 }
